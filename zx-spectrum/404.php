@@ -1,6 +1,6 @@
 <?php  get_header(); ?>
   <article class="noposts">
-  	<h2 style="margin-bottom: 0px;"><?php _e('READY.<br>404 - FILE NOT FOUND<br><br>READY.','Commodore'); ?></h2>
+  	<h2 style="margin-bottom: 0px;"><?php _e('READY.<br>404 - FILE NOT FOUND<br><br>READY.','zx-spectrum'); ?></h2>
 <?php 
 	
 	if(is_active_widget(false,false,'search')){

@@ -4,8 +4,8 @@
   		<footer>
         <!-- Feel free to remove the credit below, but we'd love it if you would leave it in! -->
   			<p>
-  				&copy; <?php  echo date("Y")  ?> <?php  bloginfo('name'); ?> | <strong><?php printf( __( 'Commodore', 'Commodore' ),''); ?></strong> by <a href="<?php echo esc_url('http://unitednetworksonline.com/wordpress-themes/'); ?>" title="<?php esc_attr_e( 'United Networks', 'Commodore' ); ?>"><strong><?php printf( __( 'United Networks', 'Commodore' ),''); ?></strong></a><br />
-  				<a href="<?php  bloginfo('rss2_url'); ?>"><?php _e("Entries (RSS)","Commodore"); ?></a> <?php _e("and","Commodore"); ?> <a href="<?php  bloginfo('comments_rss2_url'); ?>"><?php _e("Comments (RSS)","Commodore"); ?></a>
+  				(C) <?php  echo date("Y")  ?> <?php  bloginfo('name'); ?> | <strong><?php printf( __( 'zx-spectrum', 'zx-spectrum' ),''); ?></strong> WordPress theme by <a href="<?php echo esc_url('http://www.threetwosevensixseven.com/'); ?>" title="<?php esc_attr_e( 'Threetwosevensixseven', 'zx-spectrum' ); ?>"><strong><?php printf( __( 'Threetwosevensixseven', 'zx-spectrum' ),''); ?></strong></a><br />
+  				<a href="<?php  bloginfo('rss2_url'); ?>"><?php _e("Entries (RSS)","zx-spectrum"); ?></a> <?php _e("and","zx-spectrum"); ?> <a href="<?php  bloginfo('comments_rss2_url'); ?>"><?php _e("Comments (RSS)","zx-spectrum"); ?></a>
   			</p>
   		</footer>
   		<?php  wp_footer(); ?>

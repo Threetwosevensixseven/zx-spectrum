@@ -1,5 +1,5 @@
 <?php  if (post_password_required() ) { ?>
-  <p class="nocomments"><?php _e("This post is password protected. Enter the password to view comments.","Commodore"); ?></p>
+  <p class="nocomments"><?php _e("This post is password protected. Enter the password to view comments.","zx-spectrum"); ?></p>
 <?php 
 		return;
 	}
@@ -9,7 +9,7 @@
 <?php  if ( have_comments() ) : ?>
   <section class="comments">
     <header>
-      <h2><?php  comments_number(__('No Comments','Commodore'),__('One Comment','Commodore'),__('% Comments','Commodore') ); ?> </h2>
+      <h2><?php  comments_number(__('No Comments','zx-spectrum'),__('One Comment','zx-spectrum'),__('% Comments','zx-spectrum') ); ?> </h2>
     </header>
     <ol class="commentlist">
       <?php  wp_list_comments(array('avatar_size' => 70)); ?>
@@ -24,7 +24,7 @@
   <?php  else :// comments are closed  ?>
     <?php  if(!is_page()) { ?>
       <!-- If comments are closed. -->
-      <p class="nocomments"><?php _e("Comments are closed.","Commodore"); ?></p>
+      <p class="nocomments"><?php _e("Comments are closed.","zx-spectrum"); ?></p>
     <?php  } ?>
   <?php  endif; ?>
     <hr class="clearfix" />

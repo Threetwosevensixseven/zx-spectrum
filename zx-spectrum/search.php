@@ -1,23 +1,23 @@
 <?php  get_header(); ?>
 	<article id="search-results">
 	<?php  if (have_posts()) : ?>
-		<h2 class="pagetitle"><?php _e("Search Results for","Commodore"); ?> &quot;<?php  the_search_query(); ?>&quot;</h2>
+		<h2 class="pagetitle"><?php _e("Search Results for","zx-spectrum"); ?> &quot;<?php  the_search_query(); ?>&quot;</h2>
 		<?php 
 	while (have_posts()) :
 	the_post();
 	?>
 			<div <?php  post_class()  ?>>
-				<h3 id="post-<?php  the_ID(); ?>">&bull; <a href="<?php  the_permalink()  ?>" rel="bookmark" title="<?php the_title_attribute( array( 'before' => __( 'Permanent Link to', 'Commodore' ))); ?>"><?php the_title(); ?></a></h3>
+				<h3 id="post-<?php  the_ID(); ?>">&bull; <a href="<?php  the_permalink()  ?>" rel="bookmark" title="<?php the_title_attribute( array( 'before' => __( 'Permanent Link to', 'zx-spectrum' ))); ?>"><?php the_title(); ?></a></h3>
 				<small><?php  the_time(get_option('date_format'))  ?></small>
 			</div>
 		<?php  endwhile; ?>
 		<div class="navigation">
-			<div class="alignleft"><?php  next_posts_link(__('&laquo; Older Entries','Commodore'))  ?></div>
-			<div class="alignright"><?php  previous_posts_link(__('Newer Entries &raquo;','Commodore'))  ?></div>
+			<div class="alignleft"><?php  next_posts_link(__('&laquo; Older Entries','zx-spectrum'))  ?></div>
+			<div class="alignright"><?php  previous_posts_link(__('Newer Entries &raquo;','zx-spectrum'))  ?></div>
 		</div>
 	<?php  else : ?>
-		<h2><?php _e("READY.","Commodore"); ?><br><?php  the_search_query(); ?></h2>
-		<h2 class="center"><?php _e("SYNTAX&nbsp;&nbsp;ERROR<br>READY.","Commodore"); ?></h2>
+		<h2><?php  the_search_query(); ?><br /></h2>
+		<h2 class="error"><?php _e("2 Variable not found, 0:1","zx-spectrum"); ?></h2>
 	<?php  endif; ?>
 <?php 
 	

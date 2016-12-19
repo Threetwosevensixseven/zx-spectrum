@@ -10,7 +10,7 @@
 			<div class="entry">
 				<p class="attachment"><a href="<?php  echo wp_get_attachment_url($post->ID); ?>"><?php  echo wp_get_attachment_image( $post->ID, 'medium' ); ?></a></p>
 				<div class="caption"><?php  if ( !empty($post->post_excerpt) ) the_excerpt();// this is the "caption"  ?></div>
-				<?php  the_content(__('<p class="serif">Read the rest of this entry &raquo;</p>','Commodore')); ?>
+				<?php  the_content(__('<p class="serif">Read the rest of this entry &raquo;</p>','zx-spectrum')); ?>
 				<div class="navigation">
 					<div class="alignleft"><?php  previous_image_link()  ?></div>
 					<div class="alignright"><?php  next_image_link()  ?></div>
@@ -20,6 +20,6 @@
 		</article>
 	<?php  comments_template(); ?>
 	<?php  endwhile; else : ?>
-		<p><?php _e("Sorry, no attachments matched your criteria.","Commodore"); ?></p>
+		<p><?php _e("Sorry, no attachments matched your criteria.","zx-spectrum"); ?></p>
 <?php  endif; ?>
 <?php  get_footer(); ?>

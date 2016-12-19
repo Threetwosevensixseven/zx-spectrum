@@ -18,10 +18,10 @@
 						} 
 					?>
 
-				  <?php  the_content(__('Read the rest of this entry &raquo;','Commodore')); ?>
+				  <?php  the_content(__('Read the rest of this entry &raquo;','zx-spectrum')); ?>
           <hr class="clearfix" />
           <?php  wp_link_pages('before=<p>&after=</p>&next_or_number=number&pagelink=page %'); ?>
-				  <?php  edit_post_link(__('Edit','Commodore'), '<p>', '</p>'); ?>
+				  <?php  edit_post_link(__('Edit','zx-spectrum'), '<p>', '</p>'); ?>
 			  </section>
 				<hr class="clearfix" />
 			</article>
@@ -33,6 +33,6 @@
 
 	?>
 	<?php  endwhile; else : ?>
-		<p><?php _e("Sorry, no posts matched your criteria.","Commodore"); ?></p>
+		<p><?php _e("Sorry, no posts matched your criteria.","zx-spectrum"); ?></p>
 	<?php  endif; ?>
 <?php  get_footer(); ?>

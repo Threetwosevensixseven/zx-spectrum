@@ -10,7 +10,7 @@
 	<body onload="flipcursor(0);initWrite();" <?php  body_class(); ?>>
 <div id="container">
   		<header class="header-home">
-  			<h1>**** <a href="<?php  echo esc_url(home_url('/')); ?>"><?php  bloginfo('name'); ?></a> ****</h1>
+  			<h1><a href="<?php  echo esc_url(home_url('/')); ?>"><?php blog_header_html(); ?></a></h1>
   			<h2><?php  bloginfo('description'); ?></h2>
   			<h3><?php  wp_nav_menu( array( 'theme_location' => 'header-menu', 'fallback_cb' => '' ) ); ?></h3>
   		</header>
