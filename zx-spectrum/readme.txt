@@ -13,6 +13,7 @@ Author URI: http://threetwosevensixseven.com/
 Based on the Commodore theme by United Networks: http://unitednetworksonline.com/wordpress-themes/
 Which is itself based on the Terminally theme by Stinkyink: http://www.stinkyinkshop.co.uk/themes/
 
+ZX82 System Font: http://www.type-invaders.com/sinclair/zx82system/
 Sinclair ZX Spectrum ES Font:
   http://raul.pelayo.diez-andino.com/spectrum/fuente_true_type_sinclair_zx_spectrum.php
   http://fontstruct.com/fontstructions/show/118432/sinclair_zx_spectrum_es

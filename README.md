@@ -24,12 +24,13 @@ Author URI: http://threetwosevensixseven.com/
 Based on the Commodore theme by United Networks: http://unitednetworksonline.com/wordpress-themes/
 Which is itself based on the Terminally theme by Stinkyink: http://www.stinkyinkshop.co.uk/themes/
 
+ZX82 System Font: http://www.type-invaders.com/sinclair/zx82system/
 Sinclair ZX Spectrum ES Font: 
   http://raul.pelayo.diez-andino.com/spectrum/fuente_true_type_sinclair_zx_spectrum.php
   http://fontstruct.com/fontstructions/show/118432/sinclair_zx_spectrum_es
 Sinclair ZX Spectrum ES Font License: https://creativecommons.org/licenses/by-nc-sa/3.0/
-ZX-Spextrum Keyboard Font: http://tracertong.co.uk/ttfw/2014/08/30/zx-spectrum-keyboard/
-ZX-Spextrum Keyboard Font License: http://tracertong.co.uk/ttfw/contact/
+ZX-Spectrum Keyboard Font: http://tracertong.co.uk/ttfw/2014/08/30/zx-spectrum-keyboard/
+ZX-Spectrum Keyboard Font License: http://tracertong.co.uk/ttfw/contact/
 Pixel Maz Font: http://fontstruct.com/fontstructions/show/109293/pixel_maz
 Pixel Maz Font License: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
