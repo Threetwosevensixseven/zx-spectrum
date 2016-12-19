@@ -30,6 +30,8 @@ Sinclair ZX Spectrum ES Font:
 Sinclair ZX Spectrum ES Font License: https://creativecommons.org/licenses/by-nc-sa/3.0/
 ZX-Spextrum Keyboard Font: http://tracertong.co.uk/ttfw/2014/08/30/zx-spectrum-keyboard/
 ZX-Spextrum Keyboard Font License: http://tracertong.co.uk/ttfw/contact/
+Pixel Maz Font: http://fontstruct.com/fontstructions/show/109293/pixel_maz
+Pixel Maz Font License: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 == Change Log ==
 1.0 - 18/12/16 - Initial release.
