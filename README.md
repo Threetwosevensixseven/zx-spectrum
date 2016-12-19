@@ -4,7 +4,7 @@ A simple and lightweight responsive Wordpress theme in the style of the ZX Spect
 
 Download [the installation file](https://github.com/Threetwosevensixseven/zx-spectrum/raw/master/zx-spectrum.zip).
 
-![zx-spectrum theme screenshot](https://github.com/Threetwosevensixseven/zx-spectrum/blob/master/zx-spectrum/screenshot.png)
+<img src="https://github.com/Threetwosevensixseven/zx-spectrum/blob/master/zx-spectrum/screenshot.png" width="640">
 
 ## Details
 
